@@ -1,0 +1,56 @@
+html, body, div, button, h1 ,input,form{
+
+box-sizing: border-box;
+padding: 0;
+margin: 0;
+}
+body{
+
+    background-color: beige;
+
+}
+.main{
+ border: 1px solid black;
+    height: 100vh;
+  display: flex;
+ min-width: 500px;
+  justify-content: center;
+  align-items: center;
+
+}
+.form{
+
+    display: flex;
+   
+width: 40vw;
+height: 15rem;
+text-align: center;
+flex-direction: column;
+
+    
+}
+
+h1,button,input{
+    padding: 10px;
+    height: 10vh;
+}
+input{
+
+}
+
+button{
+    background-color: blueviolet;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+button:hover{
+    background-color: rgb(106, 15, 190);
+}
+
+h1{
+    background-color: blueviolet;
+    color: white;
+
+}
